@@ -6,8 +6,8 @@ html, body {
     font-optical-sizing: auto;
     font-style: normal;
 
-    background: #3FA34D;
-    color: #fff;
+    background: #fff;
+    color: #2A9134;
 }
 
 .titulo {
@@ -37,8 +37,8 @@ html, body {
 }
 
 .conteudo #textoOriginal {
-    height: 350px;
-    width: 620px;
+    height: 45vh;
+    width: 45vw;
 
     background: #2A9134;
     color: #fff;
@@ -51,22 +51,34 @@ html, body {
     padding: 10px;
 }
 
-.conteudo p {
-    font-size: 15pt;
-}
-
 .conteudo #resultado {
     margin: 0 1%;
-    padding: 5px;
+    padding: 20px;
+
+    width: auto;
+    max-width: 180vh;
+    height: auto;
 
     font-size: 16pt;
 
     border: 1px solid #137547;
     border-radius: 15px;
     background: #137547;
+    color: #fff;
 }
 
 ::placeholder {
     color: #fff;
     font-size: 18pt;
 }
+
+.final p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.final p a {
+    text-decoration: none;
+    color: #2A9134;
+}
+
