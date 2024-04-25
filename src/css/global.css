@@ -24,7 +24,7 @@ html, body {
 
 }
 
-.conteudo button {
+.conteudo div button {
     border: 1px solid #2A9134;
     border-radius: 20px;
     background: #2A9134;
@@ -34,9 +34,18 @@ html, body {
     font-size: 15pt;
 
     padding: 10px;
+    margin: 0 5px;
+
+    transition: background-color 0.5s ease-in-out;
 }
 
-.conteudo #textoOriginal {
+.conteudo div button:hover {   
+    background: #5BBA6F;
+    border: 1px solid #5BBA6F;
+    border-radius: 15px;
+}
+
+.conteudo #nbtClean {
     height: 45vh;
     width: 45vw;
 
@@ -52,8 +61,8 @@ html, body {
 }
 
 .conteudo #resultado {
-    margin: 0 1%;
-    padding: 20px;
+    margin: 0 auto;
+    padding: 1vh 3vh;
 
     width: auto;
     max-width: 180vh;
@@ -65,6 +74,7 @@ html, body {
     border-radius: 15px;
     background: #137547;
     color: #fff;
+    overflow: hidden;
 }
 
 ::placeholder {
@@ -81,4 +91,24 @@ html, body {
     text-decoration: none;
     color: #2A9134;
 }
+
+ @media only screen and (max-width: 850px) {
+
+    .conteudo #resultado {
+        margin: 0 1vh;
+        padding: 1vh 3vh;
+    
+        width: 50%;
+        max-width: 50%;
+        height: auto;
+    
+        font-size: 16pt;
+    
+        border: 1px solid #137547;
+        border-radius: 15px;
+        background: #137547;
+        color: #fff;
+        overflow: hidden;
+    }
+} 
 

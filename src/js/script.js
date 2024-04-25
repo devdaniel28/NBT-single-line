@@ -1,13 +1,19 @@
 function removerEspacos() {
-    let textoOriginal = document.getElementById("textoOriginal").value
-    let textoSemEspacos = textoOriginal.replace(/\s/g, "")
-    document.getElementById("resultado").innerHTML = textoSemEspacos
-}
+    let nbtClean = document.getElementById("nbtClean").value
+    let nbtSingleLine = nbtClean.replace(/\s/g, "")
+    document.getElementById("resultado").innerHTML = nbtSingleLine
+} // o que faz a magica aconteçer kk
 
-const input = document.getElementById("resutado")
+async function copiarNbt() {
+  /* Obtém o elemento com o texto que queremos copiar */
+  var nbt = document.getElementById("resultado");
 
-function copybutton() {
-  navigator.clipboard.writeText(input.value).then(() => {
-    alert('Copied to Clipboard')
-  })
+  try {
+    /* Copia o texto */
+    await navigator.clipboard.writeText(nbt.textContent);
+    console.log('Texto copiado para a área de transferência');
+    alert("Nbt Copiado!")
+  } catch (err) {
+    console.error('Erro ao copiar texto: ', err);
+  }
 }

@@ -18,10 +18,12 @@
      <h2>{"Nbt Single Line"}</h2>
  </header>
 <main class="conteudo">
-    <textarea id="textoOriginal" rows="4" cols="50" placeholder="Nbt Aqui..."></textarea>
-    <button onclick="removerEspacos()">Deixar em linha unica</button>
+    <textarea id="nbtClean" rows="4" cols="50" placeholder="Nbt Aqui..."></textarea>
+    <div>
+        <button onclick="removerEspacos()">Deixar em linha unica</button>
+        <button id="copiar" onclick="copiarNbt()">Copy Nbt</button>
+    </div>
     <p id="resultado">Resultado</p>
-    <button id="copybutton">Copiar</button>
 </main>
 <footer class="final">
     <p>&copy; 2024 <a href="https://github.com/devdaniel28" target="_blank">dvDaniel</a></p>
