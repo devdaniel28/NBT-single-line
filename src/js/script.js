@@ -13,6 +13,6 @@ async function copiarNbt() {
     console.log('Texto copiado para a área de transferência');
     alert("Nbt Copiado!")
   } catch (err) {
-    console.error('Erro ao copiar texto: ', err);
+    console.error(err);
   }
 }
