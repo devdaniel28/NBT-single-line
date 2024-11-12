@@ -2,7 +2,7 @@
 
 **Link:** https://nbtsingleline.netlify.app
 
-Este projeto consiste em duas funções JavaScript que removem todos os espaços de uma string de texto e copiam o resultado para a área de transferência.
+Este projeto consiste em duas funções JavaScript que removem todos os espaços de um Nbt(Json ou Yml) e deixam legivel para o bloco de comando do jogo minecraft
 
 ## Funcionalidades
 
