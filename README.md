@@ -1,5 +1,7 @@
 # Nbt Single Line
 
+**Link:** https://nbtsingleline.netlify.app
+
 Este projeto consiste em duas funções JavaScript que removem todos os espaços de uma string de texto e copiam o resultado para a área de transferência.
 
 ## Funcionalidades
@@ -29,3 +31,5 @@ async function copiarNbt() {
     }
 }
 ```
+
+**Assinado:** dvcDaniel(eu)
