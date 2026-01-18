@@ -32,4 +32,4 @@ async function copiarNbt() {
 }
 ```
 
-**Assinado:** dvcDaniel(eu)
+**Assinado:** dvcDaniel
